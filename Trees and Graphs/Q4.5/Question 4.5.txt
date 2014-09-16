@@ -1,0 +1,8 @@
+原文：
+
+Write an algorithm to find the ‘next’ node (i.e., in-order successor) of a given node in a binary search tree where each node has a link to its parent.
+
+译文：
+
+给定二叉查找树的一个结点， 写一个算法查找它的“下一个”结点(即中序遍历后它的后继结点)， 其中每个结点都有指向其父亲的链接。
+

@@ -1,0 +1,16 @@
+
+public class StringCompressor {
+	public String compress(String target) {
+		if (target == null || target.length() < 2) return target;
+		StringBuilder builder = new StringBuilder();
+		char previous = target.charAt(0);
+		char current;
+		int count = 1;
+		
+	}
+	
+	public void main(String[] args) {
+		String input = "Cui";
+		System.out.println(input.length());
+	}
+}

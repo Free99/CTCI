@@ -1,0 +1,11 @@
+
+public class StringCompressor {
+	public String compress(String target) {
+		if (target == null || target.length() < 2) return target;
+		else return "Nihao";
+	}
+	
+	public void main(String[] args) {
+		
+	}
+}

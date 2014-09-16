@@ -1,0 +1,28 @@
+
+public class Image {
+	public static void transposeSwap(int[][] image, int i, int j) {
+		int tmp = image[i][j];
+		image[i][j] = image[j][i];
+		image[j][i] = tmp;
+	}
+	
+	public static void reverseRow(int[][] image, int N, int i, int j) {
+		int tmp = image[i][j];
+		row[i] = row[j];
+		row[j] = tmp;
+	}
+	
+	public static void rotate(int[][] image) {
+		if (image == null || image.length == 0) return;
+		
+		int len = image.length;
+		
+		for (int i = 0; i < len; ++i) {
+			for (int j = i + 1; j < len; ++j) {
+				transposeSwap(image, i, j);
+			}
+		}
+		
+		for (int i =)
+	}
+}

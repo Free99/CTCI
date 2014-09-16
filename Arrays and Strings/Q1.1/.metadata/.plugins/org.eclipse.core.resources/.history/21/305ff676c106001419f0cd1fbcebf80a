@@ -1,0 +1,6 @@
+public class isUnique {
+	// If we assume we have a character set of ASCII.
+	// We can use a bool char with the space of 256
+	// to help us mark the repeating chracter ture.
+	public
+}

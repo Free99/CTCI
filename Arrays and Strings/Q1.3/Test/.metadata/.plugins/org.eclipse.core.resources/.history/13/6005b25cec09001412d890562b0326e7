@@ -1,0 +1,7 @@
+package duplicateCharacters;
+
+public class duplicateCharacters {
+	public static void removeDuplicate(String s) {
+		
+	}
+}

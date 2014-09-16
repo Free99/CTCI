@@ -1,0 +1,7 @@
+public class replace {
+	public static String replaceSpace(String s) {
+		if (s == null) return null;
+		int len = s.length();
+		if (len == 0) return null;
+	}
+}

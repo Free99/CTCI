@@ -1,0 +1,71 @@
+
+import java.util.Arrays;
+
+
+public class RemoveDuplicated1_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "avddvcvcvcbu1vvcvcccbcd";
+		char[] a = s.toCharArray();
+		removeDup(a);
+		System.out.print(new String(a));
+	}
+
+	public static String remove(String s) {
+		// 这个方法倒是可以 缺点就是 用了额外的String[]占空间
+		char[] ary = s.toCharArray();
+		for (int i = 0; i < ary.length; i++) {
+			for (int j = i + 1; j < ary.length; j++) {
+				if (((ary[i])) == (ary[j])) {
+					ary[j] = ' ';
+				}
+			}
+		}
+		String d = new String(ary);
+		String[] sary = d.split(" ");
+		String e = "";
+		for (int i = 0; i < sary.length; i++) {
+			e = e.concat(sary[i]);
+		}
+
+		return e;
+	}
+
+	// 这方法不怎么用额外空间
+	// 3指针方法i=1 j=0 tail=1
+	// 在比较的过程中 永远是 j<=tail<=i
+	// 0到tail是不重复的 去重去好的区域
+	// 因为j是在内循环 所以每次大循坏i的一次 j要从0到tail比一次 除非break
+	// 这什么情况下break呢？ 就是 str[i]==str[j] 说明这个str[i]和去重区里面的char重复了 所以这i不能要
+	// 直接跳出内循环继续++i
+	// 假如的确是去重区里没有的 说明的确是可以加进来 那么就等j内循环到tail的时候加到tail的位置
+	// 到i<len的时候都检查完了 就把剩下的 tail～len区域都清空
+
+	public static void removeDup(char[] str) {
+		if (str == null)
+			return;
+		int len = str.length;
+		if (len < 2)
+			return;
+		int tail = 1;
+		for (int i = 1; i < len; i++) {
+			int j;// 为何要放在这 为了防止 if(j==tail)读不到
+			for (j = 0; j < tail; j++) {
+				System.err.print(j);
+				if (str[i] == str[j])
+					break;// break掉里面的内循环
+			}
+			if (j == tail) {
+				str[tail] = str[i];
+				++tail;
+			}
+		}
+		while (tail < len) {
+			str[tail] = 0;
+			tail++;
+		}
+
+	}
+
+}

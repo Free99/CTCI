@@ -1,0 +1,19 @@
+
+public class reverse {
+	public static void swap(char[] st, int i, int j) {
+		char temp;
+		temp = st[i];
+		st[i] = st[j];
+		st[j] = temp;
+	}
+	
+	public static String reverseByStringBuffer(String s) {
+		StringBuffer st = new StringBuffer(s);
+		st.reverse();
+		return st.toString();
+	}
+	
+	public static String reverseBychar(String s) {
+		
+	}
+}

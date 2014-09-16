@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Test/src/ha.java&apos; to &apos;isUnique.java&apos;" description="Rename resource &apos;ha.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ha.java" name="isUnique.java" stamp="1404838660527" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Test/src/isUnique.java&apos; to &apos;uniqueCharacter.java&apos;" description="Rename resource &apos;isUnique.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/isUnique.java" name="uniqueCharacter.java" stamp="1404838845272" updateReferences="true"/>
+</session>

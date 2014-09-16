@@ -1,0 +1,11 @@
+import java.util.Arrays;;
+
+public class RemoveDuplicated1_3 {
+	
+	public static void main(String[] args) {
+		String s = "avddvcvccvbu1vvcvccbcd";
+		char[] a = s.toCharArray();
+		removeDup(a);
+		System.out.print(new String(a));;
+	}
+}

@@ -1,0 +1,25 @@
+
+public class Matrix {
+	private int[][] matrix;
+	private int M;
+	private int N;
+	
+	public void helper(int[][] m) {
+		if (m == null) throw new NullPointerException();
+		this.matrix = m;
+		this.M = m.length;
+		this.N = m[0].length;
+	}
+	
+	public void setZero(int[][] m) {
+		boolean[] row = new boolean[M];
+		boolean[] col = new boolean[N];
+		for (int i = 0; i < M; ++i)
+			for (int j = 0; j < N; ++j) {
+				if (m[i][j] == 0) {
+					row[i] = true;
+					col[j] = true;
+				}
+			}
+	}
+}

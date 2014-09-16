@@ -1,0 +1,12 @@
+
+public class Matrix {
+	private int[][] matrix;
+	private int M;
+	private int N;
+	
+	public static void setZero(int[][] m) {
+		if (m == null) throw new NullPointerException();
+		
+		boolean[] row = new boolean
+	}
+}

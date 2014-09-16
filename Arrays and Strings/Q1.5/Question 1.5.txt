@@ -1,0 +1,7 @@
+原文：
+
+Write a method to replace all spaces in a string with ‘%20’.
+
+译文：
+
+写一个函数，把字符串中所有的空格替换为%20 。

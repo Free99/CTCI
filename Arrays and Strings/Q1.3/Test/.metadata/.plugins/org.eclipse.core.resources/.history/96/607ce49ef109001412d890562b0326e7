@@ -1,0 +1,8 @@
+package duplicateCharacters;
+
+public class duplicateCharacters {
+	public static void removeDuplicate(String s) {
+		int len = s.length();
+		if (len < 2) return s;
+	}
+}

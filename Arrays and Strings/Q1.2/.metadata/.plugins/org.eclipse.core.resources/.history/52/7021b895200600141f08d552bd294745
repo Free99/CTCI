@@ -1,0 +1,37 @@
+import java.util.Arrays;;
+
+public class RemoveDuplicated1_3 {
+	
+	public static void main(String[] args) {
+		String s = "avddvcvccvbu1vvcvccbcd";
+		char[] a = s.toCharArray();
+		removeDup(a);
+		System.out.print(new String(a));;
+	}
+	
+	public static String remove(String s) {
+		char[] ary = s.toCharArray();
+		for (int i = 0; i < ary.length; i++) {
+			for (int j = i + 1; j < ary.length; j++) {
+				if ((ary[i] == ary[j])) {
+					ary[j] = ' ';
+				}
+			}
+		}
+		String d = new String(ary);
+		String[] sary = d.split(" ");
+		String e = "";
+		for (int i = 0; i < sary.length; i++) {
+			e = e.concat(sary[i]);
+		}
+		return e;
+	}
+	
+	public static void removeDup(char[] str) {
+		if (str == null) return;
+		int len = str.length;
+		if (len < 2) return;
+		int tail = 1;
+		for (int i = 1; i < len; i++)
+	}
+}

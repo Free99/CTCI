@@ -1,0 +1,13 @@
+
+public class StringCompressor {
+	public String compress(String target) {
+		if (target == null || target.length() < 2) return target;
+		StringBuilder builder = new StringBuilder();
+		
+	}
+	
+	public void main(String[] args) {
+		String input = "Cui";
+		System.out.println(input.length());
+	}
+}

@@ -1,0 +1,7 @@
+原文：
+
+Write a method to decide if two strings are anagrams or not.
+
+译文：
+
+写一个函数判断两个字符串是否是变位词。

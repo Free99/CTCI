@@ -1,0 +1,6 @@
+
+public class StringCompressor {
+	public String compress(String target) {
+		
+	}
+}

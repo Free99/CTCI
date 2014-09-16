@@ -1,0 +1,3 @@
+public class replace {
+	public static String replaceSpace(String s) 
+}

@@ -1,0 +1,29 @@
+
+public class StringCompressor {
+	public String compress(String target) {
+		if (target == null || target.length() < 2) return target;
+		StringBuilder builder = new StringBuilder();
+		char previous = target.charAt(0);
+		char current;
+		int count = 1;
+		int len = target.length();
+		for (int i = 0; i < len; ++i) {
+			current = target.charAt(i);
+			if (current == previous) count++;
+			else {
+				builder.append(previous);
+				builder.append(count);
+				previous = current;
+				count = 1;
+			}
+		}
+		builder.append(previous);
+		builder.append(count);
+		return builder.length() >= 
+	}
+	
+	public void main(String[] args) {
+		String input = "Cui";
+		System.out.println(input.length());
+	}
+}

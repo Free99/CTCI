@@ -1,0 +1,15 @@
+原文：
+
+Write code to remove duplicates from an unsorted linked list.
+
+FOLLOW UP
+
+How would you solve this problem if a temporary buffer is not allowed?
+
+译文：
+
+从一个未排序的链表中移除重复的项
+
+进一步地，
+
+如果不允许使用临时的缓存，你如何解决这个问题？

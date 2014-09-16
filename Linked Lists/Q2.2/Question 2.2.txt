@@ -1,0 +1,7 @@
+原文：
+
+Implement an algorithm to find the nth to last element of a singly linked list.
+
+译文：
+
+实现一个算法从一个单链表中返回倒数第n个元素。

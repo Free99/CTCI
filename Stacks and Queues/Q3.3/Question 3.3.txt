@@ -1,0 +1,15 @@
+原文：
+
+Imagine a (literal) stack of plates. If the stack gets too high, it might topple. Therefore, in real life, we would likely start a new stack when the previous stack exceeds some threshold. Implement a data structure SetOfStacks that mimics this. SetOfStacks should be composed of several stacks, and should create a new stack once the previous one exceeds capacity. SetOfStacks.push() and SetOfStacks.pop() should behave identically to a single stack (that is, pop() should return the same values as it would if there were just a single stack).
+
+FOLLOW UP
+
+Implement a function popAt(int index) which performs a pop operation on a specific sub-stack.
+
+译文：
+
+栈就像叠盘子，当盘子叠得太高时，就会倾斜倒下。因此，在真实的世界中，当一叠盘子 (栈)超过了一定的高度时，我们就会另起一堆，再从头叠起。实现数据结构SetOfStacks 来模拟这种情况。SetOfStacks由几个栈组成，当前一栈超出容量时，需要创建一个新的栈 来存放数据。SetOfStacks.push()和SetOfStacks.pop()的行为应当和只有一个栈时 表现的一样。
+
+进一步地，
+
+实现函数popAt(int index)在指定的子栈上进行pop操作。

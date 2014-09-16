@@ -1,0 +1,7 @@
+原文：
+
+Implement a MyQueue class which implements a queue using two stacks.
+
+译文：
+
+使用两个栈实现一个队列MyQueue。

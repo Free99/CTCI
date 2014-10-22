@@ -1,0 +1,7 @@
+原文：
+
+Given an integer, print the next smallest and next largest number that have the same number of 1 bits in their binary representation.
+
+译文：
+
+给定一个整数x，找出另外两个整数，这两个整数的二进制表示中1的个数和x相同， 其中一个是比x大的数中最小的，另一个是比x小的数中最大的。

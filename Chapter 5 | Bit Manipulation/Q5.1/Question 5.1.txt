@@ -1,0 +1,19 @@
+原文：
+
+You are given two 32-bit numbers, N and M, and two bit positions, i and j. Write a method to set all bits between i and j in N equal to M (e.g., M becomes a substring of N located at i and starting at j).
+
+EXAMPLE:
+
+Input: N = 10000000000, M = 10101, i = 2, j = 6
+
+Output: N = 10001010100
+
+译文：
+
+给定两个32位的数，N和M，还有两个指示位的数，i和j。 写程序使得N中第i位到第j位的值与M中的相同(即：M变成N的子串且位于N的第i位和第j位之间)
+
+例子：
+
+输入: N = 10000000000, M = 10101, i = 2, j = 6
+
+输出: N = 10001010100

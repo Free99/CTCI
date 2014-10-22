@@ -1,0 +1,5 @@
+// Explain what the following code does:
+// ((n & (n-1)) == 0)
+
+// Determine if n is an integer which can be represented as the power of 2.
+// But if n = 0, it is not true. So we should add a condition that n > 0.

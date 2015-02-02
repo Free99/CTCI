@@ -1,0 +1,19 @@
+原文：
+
+Implement an algorithm to print all valid (e.g., properly opened and closed) combinations of n-pairs of parentheses.
+
+EXAMPLE:
+
+input: 3 (e.g., 3 pairs of parentheses)
+
+output: ((())), (()()), (())(), ()(()), ()()()
+
+译文：
+
+实现一个算法打印出n对括号的有效组合。
+
+例如：
+
+输入：3 （3对括号）
+
+输出：((())), (()()), (())(), ()(()), ()()()

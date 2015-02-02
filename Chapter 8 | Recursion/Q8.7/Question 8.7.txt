@@ -1,0 +1,7 @@
+原文：
+
+Given an infinite number of quarters (25 cents), dimes (10 cents), nickels (5 cents) and pennies (1 cent), write code to calculate the number of ways of representing n cents.
+
+译文：
+
+我们有25分，10分，5分和1分的硬币无限个。写一个函数计算组成n分的方式有几种？

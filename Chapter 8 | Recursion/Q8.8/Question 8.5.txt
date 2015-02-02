@@ -1,0 +1,7 @@
+原文：
+
+Write an algorithm to print all ways of arranging eight queens on a chess board so that none of them share the same row, column or diagonal.
+
+译文：
+
+经典的八皇后问题，即在一个8*8的棋盘上放8个皇后，使得这8个皇后无法互相攻击( 任意2个皇后不能处于同一行，同一列或是对角线上)，输出所有可能的摆放情况。

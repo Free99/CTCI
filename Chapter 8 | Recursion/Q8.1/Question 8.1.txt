@@ -1,0 +1,7 @@
+原文：
+
+Write a method to generate the nth Fibonacci number.
+
+译文：
+
+写一个函数来产生第n个斐波那契数。

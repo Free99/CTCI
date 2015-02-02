@@ -1,0 +1,7 @@
+原文：
+
+An array A[1…n] contains all the integers from 0 to n except for one number which is missing. In this problem, we cannot access an entire integer in A with a single operation. The elements of A are represented in binary, and the only operation we can use to access them is “fetch the jth bit of A[i]”, which takes constant time. Write code to find the missing integer. Can you do it in O(n) time?
+
+译文：
+
+数组A[1…n]包含0到n的所有整数，但有一个整数丢失了。在这个问题中， 我们不能直接通过A[i]取得数组中的第i个数。数组A被表示成二进制， 也就是一串的0/1字符，而我们唯一能使用的操作只有“取得A[i]中的第j位”， 这个操作只需要花费常数时间。写程序找出丢失的整数，你能使程序的时间复杂度是O(n)吗？

@@ -1,0 +1,15 @@
+原文：
+
+Write a function to determine the number of bits required to convert integer A to integer B.
+
+Input: 31, 14
+
+Output: 2
+
+译文：
+
+写程序计算从整数A变为整数B需要修改的二进制位数。
+
+输入：31，14
+
+输出：2

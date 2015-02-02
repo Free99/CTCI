@@ -1,0 +1,7 @@
+原文：
+
+Write a program to swap odd and even bits in an integer with as few instructions as possible (e.g., bit 0 and bit 1 are swapped, bit 2 and bit 3 are swapped, etc).
+
+译文：
+
+写程序交换一个整数二进制表示中的奇数位和偶数位，用尽可能少的代码实现。 (比如，第0位和第1位交换，第2位和第3位交换…)

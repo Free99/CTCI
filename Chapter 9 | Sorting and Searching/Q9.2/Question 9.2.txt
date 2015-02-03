@@ -1,0 +1,7 @@
+原文：
+
+Write a method to sort an array of strings so that all the anagrams are next to each other.
+
+译文：
+
+写一个函数对字符串数组排序，使得所有的变位词都相邻。

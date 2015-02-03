@@ -1,0 +1,7 @@
+原文：
+
+If you have a 2 GB file with one string per line, which sorting algorithm would you use to sort the file and why?
+
+译文：
+
+如果你有个2GB的文件，其中每一行是一个字符串，你会使用哪种算法来排序，为什么？
